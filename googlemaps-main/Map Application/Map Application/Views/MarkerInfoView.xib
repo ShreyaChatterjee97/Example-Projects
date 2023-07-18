@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="QcS-n1-Xd9" customClass="MarkerInfoView" customModule="Map_Application" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WYq-ZK-rKn">
+                    <rect key="frame" x="25" y="38" width="100" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="02E-nl-L1I"/>
+                        <constraint firstAttribute="width" constant="100" id="r9m-7o-GxY"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="134" translatesAutoresizingMaskIntoConstraints="NO" id="hsj-Pg-so7">
+                    <rect key="frame" x="8" y="0.0" width="134" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="hdy-WB-DQr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Fj5-U5-q7U"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hsj-Pg-so7" firstAttribute="top" secondItem="QcS-n1-Xd9" secondAttribute="top" id="8Am-1s-Bdl"/>
+                <constraint firstItem="hsj-Pg-so7" firstAttribute="leading" secondItem="QcS-n1-Xd9" secondAttribute="leading" constant="8" id="H5l-ZV-k4n"/>
+                <constraint firstAttribute="bottom" secondItem="WYq-ZK-rKn" secondAttribute="bottom" constant="8" id="aoh-CS-03V"/>
+                <constraint firstItem="WYq-ZK-rKn" firstAttribute="top" secondItem="hsj-Pg-so7" secondAttribute="bottom" id="bmX-yh-VwG"/>
+                <constraint firstAttribute="trailing" secondItem="hsj-Pg-so7" secondAttribute="trailing" constant="8" id="wg3-se-Nxb"/>
+                <constraint firstAttribute="centerX" secondItem="WYq-ZK-rKn" secondAttribute="centerX" id="xQU-Vt-0gL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="nameLabel" destination="hsj-Pg-so7" id="1ya-o9-Ze0"/>
+                <outlet property="placePhoto" destination="WYq-ZK-rKn" id="UgA-X9-oKw"/>
+            </connections>
+            <point key="canvasLocation" x="-110" y="-310"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

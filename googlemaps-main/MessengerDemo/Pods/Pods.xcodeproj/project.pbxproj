@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		685F23348C5030012AD2ABBC781F1CE1 /* Quickblox-WebRTC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D51AEA42F11946F424C85A282A0ABE7C /* Build configuration list for PBXAggregateTarget "Quickblox-WebRTC" */;
+			buildPhases = (
+				E70F79C341CDBF18DE941C587A0A69B4 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				01DFD7094F41D7938E7203B7AAD2699F /* PBXTargetDependency */,
+			);
+			name = "Quickblox-WebRTC";
+		};
+		DE5294C908468DAE4C7F976D6D5055D3 /* QuickBlox */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F00D47A53E4F55905C7CDBC1CD084B2F /* Build configuration list for PBXAggregateTarget "QuickBlox" */;
+			buildPhases = (
+				9FDC41A033F45F56B6C06C81EF2C6502 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = QuickBlox;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1C6BC15FEBE02EBE41697AE44E8C98FE /* Pods-MessengerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE0B48CE8CE24331EDB4273F16F5D24 /* Pods-MessengerDemo-dummy.m */; };
+		3844EFD7566A92174921AA897973C497 /* Pods-MessengerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 153927443D2F93582AE2A90513699140 /* Pods-MessengerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49CAB665288A434A934107E95E47D4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		038D861EE410A8440CDFEE5D377E0043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5294C908468DAE4C7F976D6D5055D3;
+			remoteInfo = QuickBlox;
+		};
+		53E71D16341AF0CBF7CC141BDD12D507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5294C908468DAE4C7F976D6D5055D3;
+			remoteInfo = QuickBlox;
+		};
+		A54AD546CB3B1EB989E14C4F74257E69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685F23348C5030012AD2ABBC781F1CE1;
+			remoteInfo = "Quickblox-WebRTC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA463D8C35EC3A97D18396453CD58AB /* QuickBlox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickBlox.debug.xcconfig; sourceTree = "<group>"; };
+		153927443D2F93582AE2A90513699140 /* Pods-MessengerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MessengerDemo-umbrella.h"; sourceTree = "<group>"; };
+		1AE0B48CE8CE24331EDB4273F16F5D24 /* Pods-MessengerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MessengerDemo-dummy.m"; sourceTree = "<group>"; };
+		286FFB5BB494FC21AB109594EAA80373 /* Quickblox-WebRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Quickblox-WebRTC.release.xcconfig"; sourceTree = "<group>"; };
+		2C3047BEF4C392ACA36C813113808928 /* Pods-MessengerDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MessengerDemo"; path = Pods_MessengerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE377AEE3EA90308BA48889A732A756 /* Quickblox-WebRTC-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Quickblox-WebRTC-xcframeworks.sh"; sourceTree = "<group>"; };
+		4EDF27AA0AB24107797286D44EC5FB54 /* Pods-MessengerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessengerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		628D3191B27A9F01CDF666B0ACFBF34F /* QuickBlox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickBlox.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9216920573AC560E8C6DE5B0A2C9FD06 /* Quickblox-WebRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Quickblox-WebRTC.debug.xcconfig"; sourceTree = "<group>"; };
+		99E1E2C1FA11084E105D65A51847B189 /* Quickblox.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Quickblox.xcframework; path = Framework/Quickblox.xcframework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFCF47D16AD7FBAB7CB0575B8B20BCC4 /* Pods-MessengerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessengerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C55F9E17A1EBF2E34B75839966B590FC /* QuickbloxWebRTC.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickbloxWebRTC.xcframework; path = Framework/QuickbloxWebRTC.xcframework; sourceTree = "<group>"; };
+		C6A59C363BE8ED40461B7EBA51A0A06B /* Pods-MessengerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MessengerDemo.modulemap"; sourceTree = "<group>"; };
+		CA7EDE75E6B2D78342A3A628AC80DD27 /* Pods-MessengerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessengerDemo-Info.plist"; sourceTree = "<group>"; };
+		D25DCD3DCBD3C5E14751E58F36AEFE15 /* Pods-MessengerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessengerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		DC7D25EB434DB5BBE538871DBF5AE5C4 /* QuickBlox-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "QuickBlox-xcframeworks.sh"; sourceTree = "<group>"; };
+		E5BB47EA009B4E71E664B2A52788CB24 /* Pods-MessengerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MessengerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EDB0828D83C03E0D3463752095FD13CE /* Pods-MessengerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessengerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1B8B65F67DC96AEF687908850F0D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49CAB665288A434A934107E95E47D4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE35706182E3BDCDA4CB62770DA291D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E983F89009767CA6B9EFEA205EA01A2 /* QuickBlox */,
+				EF4CCD547863B55B3D2C2C694E88732D /* Quickblox-WebRTC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1B656BC504E84364715176FF5B6A46A6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9BDF20769EF936CCE7922F8D9F072 /* Pods-MessengerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		45B3AE105EB18C19825E75023CCE2A4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC7D25EB434DB5BBE538871DBF5AE5C4 /* QuickBlox-xcframeworks.sh */,
+				0EA463D8C35EC3A97D18396453CD58AB /* QuickBlox.debug.xcconfig */,
+				628D3191B27A9F01CDF666B0ACFBF34F /* QuickBlox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QuickBlox";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C7FEE692F0DE7633A81A0CD24D33A4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C3047BEF4C392ACA36C813113808928 /* Pods-MessengerDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F5E3205FD544232747D6466096833F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E1E2C1FA11084E105D65A51847B189 /* Quickblox.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95917867E16246A17DD2C4FCABCF2260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C55F9E17A1EBF2E34B75839966B590FC /* QuickbloxWebRTC.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E983F89009767CA6B9EFEA205EA01A2 /* QuickBlox */ = {
+			isa = PBXGroup;
+			children = (
+				7F5E3205FD544232747D6466096833F1 /* Frameworks */,
+				45B3AE105EB18C19825E75023CCE2A4D /* Support Files */,
+			);
+			name = QuickBlox;
+			path = QuickBlox;
+			sourceTree = "<group>";
+		};
+		AA2B7A5FF09F76B14A1ACBA886D41676 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE377AEE3EA90308BA48889A732A756 /* Quickblox-WebRTC-xcframeworks.sh */,
+				9216920573AC560E8C6DE5B0A2C9FD06 /* Quickblox-WebRTC.debug.xcconfig */,
+				286FFB5BB494FC21AB109594EAA80373 /* Quickblox-WebRTC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Quickblox-WebRTC";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0AE35706182E3BDCDA4CB62770DA291D /* Pods */,
+				6C7FEE692F0DE7633A81A0CD24D33A4F /* Products */,
+				1B656BC504E84364715176FF5B6A46A6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4CCD547863B55B3D2C2C694E88732D /* Quickblox-WebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				95917867E16246A17DD2C4FCABCF2260 /* Frameworks */,
+				AA2B7A5FF09F76B14A1ACBA886D41676 /* Support Files */,
+			);
+			name = "Quickblox-WebRTC";
+			path = "Quickblox-WebRTC";
+			sourceTree = "<group>";
+		};
+		F5E9BDF20769EF936CCE7922F8D9F072 /* Pods-MessengerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C6A59C363BE8ED40461B7EBA51A0A06B /* Pods-MessengerDemo.modulemap */,
+				E5BB47EA009B4E71E664B2A52788CB24 /* Pods-MessengerDemo-acknowledgements.markdown */,
+				4EDF27AA0AB24107797286D44EC5FB54 /* Pods-MessengerDemo-acknowledgements.plist */,
+				1AE0B48CE8CE24331EDB4273F16F5D24 /* Pods-MessengerDemo-dummy.m */,
+				D25DCD3DCBD3C5E14751E58F36AEFE15 /* Pods-MessengerDemo-frameworks.sh */,
+				CA7EDE75E6B2D78342A3A628AC80DD27 /* Pods-MessengerDemo-Info.plist */,
+				153927443D2F93582AE2A90513699140 /* Pods-MessengerDemo-umbrella.h */,
+				EDB0828D83C03E0D3463752095FD13CE /* Pods-MessengerDemo.debug.xcconfig */,
+				AFCF47D16AD7FBAB7CB0575B8B20BCC4 /* Pods-MessengerDemo.release.xcconfig */,
+			);
+			name = "Pods-MessengerDemo";
+			path = "Target Support Files/Pods-MessengerDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18788EEF303465366A93577765C2AC85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3844EFD7566A92174921AA897973C497 /* Pods-MessengerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		401EE4CF60F4AB5F5A4B00CE77742733 /* Pods-MessengerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7208BC32F35BD0F50D5B9956ACA7F45F /* Build configuration list for PBXNativeTarget "Pods-MessengerDemo" */;
+			buildPhases = (
+				18788EEF303465366A93577765C2AC85 /* Headers */,
+				8893B8BCE6CCFF07C0DDCA23330085F1 /* Sources */,
+				AC1B8B65F67DC96AEF687908850F0D44 /* Frameworks */,
+				6C3FA0BD5015B96A479766728394F09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B33A84721CEDED568B7FCCEE45324136 /* PBXTargetDependency */,
+				E4B372783617B40CBBAA88EB911AC56E /* PBXTargetDependency */,
+			);
+			name = "Pods-MessengerDemo";
+			productName = Pods_MessengerDemo;
+			productReference = 2C3047BEF4C392ACA36C813113808928 /* Pods-MessengerDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6C7FEE692F0DE7633A81A0CD24D33A4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				401EE4CF60F4AB5F5A4B00CE77742733 /* Pods-MessengerDemo */,
+				DE5294C908468DAE4C7F976D6D5055D3 /* QuickBlox */,
+				685F23348C5030012AD2ABBC781F1CE1 /* Quickblox-WebRTC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C3FA0BD5015B96A479766728394F09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FDC41A033F45F56B6C06C81EF2C6502 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/QuickBlox/QuickBlox-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/QuickBlox/QuickBlox-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/QuickBlox/QuickBlox-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E70F79C341CDBF18DE941C587A0A69B4 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Quickblox-WebRTC/Quickblox-WebRTC-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Quickblox-WebRTC/Quickblox-WebRTC-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Quickblox-WebRTC/Quickblox-WebRTC-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8893B8BCE6CCFF07C0DDCA23330085F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6BC15FEBE02EBE41697AE44E8C98FE /* Pods-MessengerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01DFD7094F41D7938E7203B7AAD2699F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickBlox;
+			target = DE5294C908468DAE4C7F976D6D5055D3 /* QuickBlox */;
+			targetProxy = 53E71D16341AF0CBF7CC141BDD12D507 /* PBXContainerItemProxy */;
+		};
+		B33A84721CEDED568B7FCCEE45324136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickBlox;
+			target = DE5294C908468DAE4C7F976D6D5055D3 /* QuickBlox */;
+			targetProxy = 038D861EE410A8440CDFEE5D377E0043 /* PBXContainerItemProxy */;
+		};
+		E4B372783617B40CBBAA88EB911AC56E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Quickblox-WebRTC";
+			target = 685F23348C5030012AD2ABBC781F1CE1 /* Quickblox-WebRTC */;
+			targetProxy = A54AD546CB3B1EB989E14C4F74257E69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		077DADA8D8767DD77ED957D858B898E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628D3191B27A9F01CDF666B0ACFBF34F /* QuickBlox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EB21F1062E048873F8A6573C76895C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB0828D83C03E0D3463752095FD13CE /* Pods-MessengerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MessengerDemo/Pods-MessengerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MessengerDemo/Pods-MessengerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AE73F38BEDFC9C39FD86C61CCBC9805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9216920573AC560E8C6DE5B0A2C9FD06 /* Quickblox-WebRTC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		550BBECE14FE56BAE6E1F85E3F9607D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA463D8C35EC3A97D18396453CD58AB /* QuickBlox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A75EB07958AD561C2E7CE955AA0A4831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286FFB5BB494FC21AB109594EAA80373 /* Quickblox-WebRTC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBCD79CA8F9ED7D03FB05D22B5D9AA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFCF47D16AD7FBAB7CB0575B8B20BCC4 /* Pods-MessengerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MessengerDemo/Pods-MessengerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MessengerDemo/Pods-MessengerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7208BC32F35BD0F50D5B9956ACA7F45F /* Build configuration list for PBXNativeTarget "Pods-MessengerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB21F1062E048873F8A6573C76895C3 /* Debug */,
+				EBCD79CA8F9ED7D03FB05D22B5D9AA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51AEA42F11946F424C85A282A0ABE7C /* Build configuration list for PBXAggregateTarget "Quickblox-WebRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE73F38BEDFC9C39FD86C61CCBC9805 /* Debug */,
+				A75EB07958AD561C2E7CE955AA0A4831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00D47A53E4F55905C7CDBC1CD084B2F /* Build configuration list for PBXAggregateTarget "QuickBlox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550BBECE14FE56BAE6E1F85E3F9607D7 /* Debug */,
+				077DADA8D8767DD77ED957D858B898E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
